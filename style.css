@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; 
+}
+
+body {
+  background-color: white;
+}
+
+a {
+  cursor: pointer;
+}
+
+.header-main {
+  width:100%;
+  height: 75px;
+  background-color: #004175 ;
+  border-color: #89DEEF;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-main-name {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  padding-left: 60px;
+}
+
+.header-main-name ul {
+list-style: none;
+margin-left: 60px;
+}
+
+
+.header-main-name ul li{
+display: inline;
+width: fit-content;
+float: left;
+margin-right: 20px;
+}
+
+
+.header-main-name ul li a {
+padding: 0 10px;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 60px;
+}
+
+.header-main-name ul li a:hover {
+  color:aqua;
+  }
+
+h1{
+  padding-top: 20px;
+}
+
+.header-main-nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header-main-nav a:hover{
+  background-color: aliceblue;
+}
+
+.header-main-nav {
+  padding-left: 1100px;
+  width: fit-content;
+  height: 100%;
+}
+
+.header-main-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+ .image-of-a-dog {
+  width:100%;
+  height:100%;
+  background-size:contain;
+  display: flex;
+  justify-content: center;
+
+}
+ 
+.text-para {
+  width: 50%;
+  margin-left: 20%;
+  margin-right: 20%; 
+  font-family: "Open Sans";
+  position:relative;
+  text-align: center;
+  text-wrap:pretty;
+  font-size: large;
+}
+
+.donate-link {
+  width: 50%;
+  margin-left: 20%;
+  margin-right: 20%; 
+  font-family: "Open Sans";
+  position:relative;
+  text-align: center;
+  text-wrap:pretty;
+}
+
+.main-footer {
+  width:100%;
+  height: 300px;
+  background-color: #A6A9F0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+  cursor: pointer;
+}
+
+.donate-image {
+  width:33.33%;
+  height:300px;
+  background-image: url(../images/donate.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.volunteer-image {
+  width:33.33%;
+  height:300px;
+  background-image: url(../images/volunteer.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.location-image {
+  width:33.33%;
+  height:300px;
+  background-image: url(../images/location.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-footer a {
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+ .main-footer a:hover {
+  background-color: #d7d8da;
+  opacity: 0.5;
+ }
+
+.contact-details ul{
+ padding-left: 100px;
+ text-decoration: dotted;
+ padding-bottom: 10px;
+}
+
+.contact-details p{
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
+
+.main-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.dogs-for-adoption{
+  font-family: 'Open Sans';
+  border-style: solid;
+  border-radius: 5px;
+  border-color: lightgrey;
+  border-width: 2px;
+  padding: 1ex;
+  margin: 1ex;
+}
+
+.main-gallery h3{
+  font-family: 'Oswald';
+  padding-bottom: 15px;
+}
+
+.traits{
+  display: flex;
+  flex-flow: row wrap;
+  width: 25vh;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.traits li {
+  display: inline;
+  background:lightcyan ;
+  border-style: solid;
+  border-color:lightcyan ;
+  border-width: 5px;
+  border-radius: 1em;
+  margin: 5px;
+}
+
+
+
